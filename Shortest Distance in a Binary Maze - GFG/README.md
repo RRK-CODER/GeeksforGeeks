@@ -4,7 +4,7 @@
 
 <p><span style="font-size:18px">If the path is not possible between source cell and destination cell, then return <strong>-1</strong>.</span></p>
 
-<p><span style="font-size:18px"><strong>Note :&nbsp;</strong>You can move into an adjacent cell if that adjacent cell is filled with element 1. Two cells are adjacent if they share a side. In other words,&nbsp;you can move in one of the four&nbsp;directions, Up, Down, Left&nbsp;and Right.</span></p>
+<p><span style="font-size:18px"><strong>Note :&nbsp;</strong>You can move into an adjacent cell if that adjacent cell is filled with element 1. Two cells are adjacent if they share a side. In other words,&nbsp;you can move in one of the four&nbsp;directions, Up, Down, Left&nbsp;and Right. The source and destination cell are based on the zero based indexing.</span></p>
 
 <p><strong><span style="font-size:18px">Example 1:</span></strong></p>
 
@@ -57,6 +57,5 @@ shortest path from source to destination cell.</span>
 	<li><span style="font-size:18px">1 ≤ n, m ≤ 500</span></li>
 	<li><span style="font-size:18px">grid[i][j] == 0 or grid[i][j] == 1</span></li>
 	<li><span style="font-size:18px">The source and destination cells are always inside the given matrix.</span></li>
-	<li><span style="font-size:18px">The source and destination cells always contain 1.</span></li>
 </ul>
 </div>
